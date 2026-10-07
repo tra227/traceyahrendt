@@ -1,0 +1,5 @@
+<div class="category-photo-grid">
+  {{ with .Site.GetPage "/services" }}
+    {{ range .Sections.ByWeight }}{{ partial "category-photo-card.html" . }}{{ end }}
+  {{ end }}
+</div>

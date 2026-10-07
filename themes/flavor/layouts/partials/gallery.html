@@ -1,0 +1,8 @@
+<div class="portfolio-grid image-gallery">
+  {{ range .images }}
+  <figure class="portfolio-item">
+    {{ partial "responsive-image.html" (dict "page" $.page "src" .src "alt" .alt "sizes" "(min-width: 1200px) 373px, (min-width: 1024px) calc((100vw - 80px) / 3), (min-width: 640px) calc((100vw - 48px) / 2), calc(100vw - 32px)") }}
+    {{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+  </figure>
+  {{ end }}
+</div>

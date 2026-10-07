@@ -1,0 +1,24 @@
+# Hugo build output and generated resource cache
+/public/
+/resources/_gen/
+/.hugo_build.lock
+/hugo_stats.json
+
+# Local caches and optional frontend dependencies
+/.cache/
+/node_modules/
+
+# Local environment files and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+/.aws/
+/.claude/settings.local.json
+
+# OS files and editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

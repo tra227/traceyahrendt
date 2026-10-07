@@ -1,0 +1,774 @@
+{
+  "source_site": "https://www.traceyahrendt.com/",
+  "photos": [
+    {
+      "key": "sunrise-1",
+      "file": "images/services/sunrise-1.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2017/10/tracey_ahrendt_fine_art_photography-4240.jpg",
+      "page": "https://www.traceyahrendt.com/2017/10/13/amelia-island-sunrise-fine-art-photography/",
+      "group": "sunrise"
+    },
+    {
+      "key": "sunrise-2",
+      "file": "images/services/sunrise-2.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2017/10/tracey_ahrendt_fine_art_photography-4360.jpg",
+      "page": "https://www.traceyahrendt.com/2017/10/13/amelia-island-sunrise-fine-art-photography/",
+      "group": "sunrise"
+    },
+    {
+      "key": "sunrise-3",
+      "file": "images/services/sunrise-3.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2017/10/tracey_ahrendt_fine_art_photography-4402.jpg",
+      "page": "https://www.traceyahrendt.com/2017/10/13/amelia-island-sunrise-fine-art-photography/",
+      "group": "sunrise"
+    },
+    {
+      "key": "family-1",
+      "file": "images/services/family-1.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2017/09/tracey_ahrendt_toddler_portrait_photography-2.jpg",
+      "page": "https://www.traceyahrendt.com/2017/09/01/amelia_island_family_portrait_session/",
+      "group": "family"
+    },
+    {
+      "key": "family-2",
+      "file": "images/services/family-2.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2014/08/newborn_session_traceyahrendt.jpg",
+      "page": "https://www.traceyahrendt.com/2017/09/01/amelia_island_family_portrait_session/",
+      "group": "family"
+    },
+    {
+      "key": "family-3",
+      "file": "images/services/family-3.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2012/09/www.traceyahrendt.com_family_portrait-0222.jpg",
+      "page": "https://www.traceyahrendt.com/2017/09/01/amelia_island_family_portrait_session/",
+      "group": "family"
+    },
+    {
+      "key": "wedding-1",
+      "file": "images/services/wedding-1.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2017/05/The_Wishing_Well_Barn_Wedding_Pictures-0551.jpg",
+      "page": "https://www.traceyahrendt.com/2017/05/26/kiani-andy-wedding-pictures-wishing-well-barn-plant-city-florida/",
+      "group": "wedding"
+    },
+    {
+      "key": "wedding-2",
+      "file": "images/services/wedding-2.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2017/05/The_Wishing_Well_Barn_Wedding_Pictures-9341.jpg",
+      "page": "https://www.traceyahrendt.com/2017/05/26/kiani-andy-wedding-pictures-wishing-well-barn-plant-city-florida/",
+      "group": "wedding"
+    },
+    {
+      "key": "wedding-3",
+      "file": "images/services/wedding-3.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2017/05/The_Wishing_Well_Barn_Wedding_Pictures-9693.jpg",
+      "page": "https://www.traceyahrendt.com/2017/05/26/kiani-andy-wedding-pictures-wishing-well-barn-plant-city-florida/",
+      "group": "wedding"
+    },
+    {
+      "key": "headshot-1",
+      "file": "images/services/headshot-1.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2017/05/barbara_kagna_professional_headshot-.jpg",
+      "page": "https://www.traceyahrendt.com/2017/05/19/everyone-needs-professional-headshots/",
+      "group": "headshot"
+    },
+    {
+      "key": "headshot-2",
+      "file": "images/services/headshot-2.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2017/05/barbara_kagna_professional_headshot-0741.jpg",
+      "page": "https://www.traceyahrendt.com/2017/05/19/everyone-needs-professional-headshots/",
+      "group": "headshot"
+    },
+    {
+      "key": "newborn-1",
+      "file": "images/services/newborn-1.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2015/08/newborn_photography_tracey_ahrendt-004-1086x900.jpg",
+      "page": "https://www.traceyahrendt.com/portfolio/mainline_newborn_photography_portraits/",
+      "group": "newborn"
+    },
+    {
+      "key": "newborn-2",
+      "file": "images/services/newborn-2.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2015/08/newborn_photography_tracey_ahrendt-006-1350x900.jpg",
+      "page": "https://www.traceyahrendt.com/portfolio/mainline_newborn_photography_portraits/",
+      "group": "newborn"
+    },
+    {
+      "key": "newborn-3",
+      "file": "images/services/newborn-3.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2015/08/newborn_photography_tracey_ahrendt-008-1350x900.jpg",
+      "page": "https://www.traceyahrendt.com/portfolio/mainline_newborn_photography_portraits/",
+      "group": "newborn"
+    },
+    {
+      "key": "boudoir-1",
+      "file": "images/services/boudoir-1.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2015/08/boudoir_tracey_ahrendt-004-600x900.jpg",
+      "page": "https://www.traceyahrendt.com/portfolio/mainline_boudoir_sexy_images/",
+      "group": "boudoir"
+    },
+    {
+      "key": "boudoir-2",
+      "file": "images/services/boudoir-2.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2015/08/boudoir_tracey_ahrendt-005-600x900.jpg",
+      "page": "https://www.traceyahrendt.com/portfolio/mainline_boudoir_sexy_images/",
+      "group": "boudoir"
+    },
+    {
+      "key": "boudoir-3",
+      "file": "images/services/boudoir-3.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2015/08/boudoir_tracey_ahrendt-002-1350x900.jpg",
+      "page": "https://www.traceyahrendt.com/portfolio/mainline_boudoir_sexy_images/",
+      "group": "boudoir"
+    },
+    {
+      "key": "branding-1",
+      "file": "images/services/branding-1.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2015/05/www.traceyahrendt.com_commercialphotography-3168-682x1024.jpg",
+      "page": "https://www.traceyahrendt.com/2015/05/20/staysea-surf-lifestyle-commercial-photoshoot-miami-florida/",
+      "group": "branding"
+    },
+    {
+      "key": "branding-2",
+      "file": "images/services/branding-2.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2015/05/www.traceyahrendt.com_commercialphotography-3468-682x1024.jpg",
+      "page": "https://www.traceyahrendt.com/2015/05/20/staysea-surf-lifestyle-commercial-photoshoot-miami-florida/",
+      "group": "branding"
+    },
+    {
+      "key": "branding-3",
+      "file": "images/services/branding-3.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2015/05/www.traceyahrendt.com_commercialphotography-3523-1024x682.jpg",
+      "page": "https://www.traceyahrendt.com/2015/05/20/staysea-surf-lifestyle-commercial-photoshoot-miami-florida/",
+      "group": "branding"
+    },
+    {
+      "key": "engagement-1",
+      "file": "images/services/engagement-1.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2015/05/engagement_photography_traceyahrendt-6300.jpg",
+      "page": "https://www.traceyahrendt.com/2015/05/01/bill-and-ashley-engagement-pictures-philadelphia-wedding-photography/",
+      "group": "engagement"
+    },
+    {
+      "key": "engagement-2",
+      "file": "images/services/engagement-2.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2015/05/engagement_photography_traceyahrendt-6561-682x1024.jpg",
+      "page": "https://www.traceyahrendt.com/2015/05/01/bill-and-ashley-engagement-pictures-philadelphia-wedding-photography/",
+      "group": "engagement"
+    },
+    {
+      "key": "engagement-3",
+      "file": "images/services/engagement-3.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2015/05/engagement_photography_traceyahrendt-6696.jpg",
+      "page": "https://www.traceyahrendt.com/2015/05/01/bill-and-ashley-engagement-pictures-philadelphia-wedding-photography/",
+      "group": "engagement"
+    },
+    {
+      "key": "fantasy-1",
+      "file": "images/services/fantasy-1.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2014/06/sunkiss3-1024x682.jpg",
+      "page": "https://www.traceyahrendt.com/2014/06/04/sunkiss-by-nature-visionary-fine-art-photography/",
+      "group": "fantasy"
+    },
+    {
+      "key": "business-1",
+      "file": "images/services/business-1.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2015/08/headshot_photography_tracey_ahrendt-002-600x900.jpg",
+      "page": "https://www.traceyahrendt.com/portfolio/children/",
+      "group": "business"
+    },
+    {
+      "key": "executive-1",
+      "file": "images/services/executive-1.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2012/02/www.traceyahrendt.com_headshots-0003.jpg",
+      "page": "https://www.traceyahrendt.com/2012/02/14/headshots-that-represent-you-fort-lauderdale-photographer/",
+      "group": "business"
+    },
+    {
+      "key": "executive-2",
+      "file": "images/services/executive-2.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2012/02/www.traceyahrendt.com_headshots-0001.jpg",
+      "page": "https://www.traceyahrendt.com/2012/02/14/headshots-that-represent-you-fort-lauderdale-photographer/",
+      "group": "business"
+    },
+    {
+      "key": "stock-corporate",
+      "file": "images/services/stock-corporate.jpg",
+      "source": "https://images.pexels.com/photos/7433859/pexels-photo-7433859.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "page": "https://www.pexels.com/photo/business-partners-having-a-meeting-at-the-office-7433859/",
+      "creator": "Vlada Karpovich",
+      "alt": "Business partners meeting around an office table",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "stock": true
+    },
+    {
+      "key": "stock-branding",
+      "file": "images/services/stock-branding.jpg",
+      "source": "https://images.pexels.com/photos/8133947/pexels-photo-8133947.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "page": "https://www.pexels.com/photo/a-woman-using-a-laptop-while-working-at-the-office-8133947/",
+      "creator": "Alena Darmel",
+      "alt": "Businesswoman working at a laptop in a modern office",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "stock": true
+    },
+    {
+      "key": "stock-yacht",
+      "file": "images/services/stock-yacht.jpg",
+      "source": "https://images.pexels.com/photos/33230049/pexels-photo-33230049.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "page": "https://www.pexels.com/photo/idyllic-summer-scene-with-yacht-on-the-ocean-33230049/",
+      "creator": null,
+      "alt": "Luxury yacht on clear blue ocean water",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "stock": true
+    },
+    {
+      "key": "stock-aviation",
+      "file": "images/services/stock-aviation.jpg",
+      "source": "https://images.pexels.com/photos/32161124/pexels-photo-32161124.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "page": "https://www.pexels.com/photo/private-jet-taxiing-on-runway-on-sunny-day-32161124/",
+      "creator": "Drinu Cutajar",
+      "alt": "Jet aircraft taxiing on a sunny runway",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "stock": true
+    },
+    {
+      "key": "stock-cars",
+      "file": "images/services/stock-cars.jpg",
+      "source": "https://images.pexels.com/photos/29876843/pexels-photo-29876843.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "page": "https://www.pexels.com/photo/luxury-sports-car-parked-by-city-skyline-29876843/",
+      "creator": "Maheshwar Reddy",
+      "alt": "Sports car beside a waterfront city skyline",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "stock": true
+    },
+    {
+      "key": "stock-interior",
+      "file": "images/services/stock-interior.jpg",
+      "source": "https://images.pexels.com/photos/15824912/pexels-photo-15824912.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "page": "https://www.pexels.com/photo/modern-living-room-interior-15824912/",
+      "creator": null,
+      "alt": "Modern living room with a sofa and carefully styled decor",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "stock": true
+    },
+    {
+      "key": "stock-fairy",
+      "file": "images/services/stock-fairy.jpg",
+      "source": "https://images.pexels.com/photos/27118715/pexels-photo-27118715.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "page": "https://www.pexels.com/photo/little-fairy-walking-in-the-forest-27118715/",
+      "creator": "jennifer jaser",
+      "alt": "Child wearing fairy wings in a woodland setting",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "stock": true
+    },
+    {
+      "key": "stock-mermaid",
+      "file": "images/services/stock-mermaid.jpg",
+      "source": "https://images.pexels.com/photos/36143956/pexels-photo-36143956.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "page": "https://www.pexels.com/photo/fantasy-mermaid-inspired-costume-in-park-setting-36143956/",
+      "creator": "Mois\u00e9s Fonseca",
+      "alt": "Woman in a mermaid-inspired costume and makeup",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "stock": true
+    },
+    {
+      "key": "stock-princess",
+      "file": "images/services/stock-princess.jpg",
+      "source": "https://images.pexels.com/photos/32534133/pexels-photo-32534133.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "page": "https://www.pexels.com/photo/adorable-young-girl-in-pink-princess-dress-with-crown-32534133/",
+      "creator": "Kevin Maenetsa",
+      "alt": "Child wearing a pink princess dress and jeweled crown",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "stock": true
+    },
+    {
+      "key": "stock-baby-shower",
+      "file": "images/services/stock-baby-shower.jpg",
+      "source": "https://images.pexels.com/photos/20551991/pexels-photo-20551991.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "page": "https://www.pexels.com/photo/baby-shower-decoration-with-balloons-20551991/",
+      "creator": "Adriana Coulson",
+      "alt": "Baby shower balloon arrangement and letter blocks",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "stock": true
+    },
+    {
+      "key": "stock-banquet",
+      "file": "images/services/stock-banquet.jpg",
+      "source": "https://images.pexels.com/photos/29410666/pexels-photo-29410666.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "page": "https://www.pexels.com/photo/elegant-banquet-table-setting-at-gala-event-29410666/",
+      "creator": "Jonathan Valdes",
+      "alt": "Formal banquet table with place settings and flowers",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "stock": true
+    },
+    {
+      "key": "stock-product",
+      "file": "images/services/stock-product.jpg",
+      "source": "https://images.pexels.com/photos/14438270/pexels-photo-14438270.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "page": "https://www.pexels.com/photo/skincare-products-in-bottles-14438270/",
+      "creator": "ANVA Marketing",
+      "alt": "Skincare bottles arranged for a product photograph",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "stock": true
+    },
+    {
+      "key": "stock-awards",
+      "file": "images/services/stock-awards.jpg",
+      "source": "https://images.pexels.com/photos/6532365/pexels-photo-6532365.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "page": "https://www.pexels.com/photo/gold-and-silver-trophy-on-black-table-6532365/",
+      "creator": "Nataliya Vaitkevich",
+      "alt": "Golden star trophy on a dark table",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "stock": true
+    },
+    {
+      "key": "maternity-1",
+      "file": "images/services/maternity-1.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2012/01/www.traceyahrendt.com_maternity-0004.jpg",
+      "page": "https://www.traceyahrendt.com/2012/01/20/new-baby-on-the-way-maternity-photography-fort-lauderdale/",
+      "group": "maternity",
+      "alt": "Expectant mother with her partner and son at a playground"
+    },
+    {
+      "key": "maternity-2",
+      "file": "images/services/maternity-2.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2012/01/www.traceyahrendt.com_maternity-0050.jpg",
+      "page": "https://www.traceyahrendt.com/2012/01/20/new-baby-on-the-way-maternity-photography-fort-lauderdale/",
+      "group": "maternity",
+      "alt": "Expectant mother with her family in warm outdoor light"
+    },
+    {
+      "key": "maternity-3",
+      "file": "images/services/maternity-3.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2012/01/www.traceyahrendt.com_maternity-0044.jpg",
+      "page": "https://www.traceyahrendt.com/2012/01/20/new-baby-on-the-way-maternity-photography-fort-lauderdale/",
+      "group": "maternity",
+      "alt": "Maternity portrait with flowing red fabric beneath pine trees"
+    },
+    {
+      "key": "charity-1",
+      "file": "images/services/charity-1.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2010/06/www.traceyahrendt.com_melanoma.jpg",
+      "page": "https://www.traceyahrendt.com/2010/06/21/event-at-ballenisles-country-club-palm-beach-gardens-benefitting-richard-david-kann-melanoma-foundation/",
+      "group": "charity"
+    },
+    {
+      "key": "charity-2",
+      "file": "images/services/charity-2.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2010/06/www.traceyahrendt.com_melanoma2.jpg",
+      "page": "https://www.traceyahrendt.com/2010/06/21/event-at-ballenisles-country-club-palm-beach-gardens-benefitting-richard-david-kann-melanoma-foundation/",
+      "group": "charity"
+    },
+    {
+      "key": "charity-3",
+      "file": "images/services/charity-3.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2010/06/www.traceyahrendt.com_melanoma3.jpg",
+      "page": "https://www.traceyahrendt.com/2010/06/21/event-at-ballenisles-country-club-palm-beach-gardens-benefitting-richard-david-kann-melanoma-foundation/",
+      "group": "charity"
+    },
+    {
+      "key": "charity-4",
+      "file": "images/services/charity-4.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2010/06/www.traceyahrendt.com_melanoma4.jpg",
+      "page": "https://www.traceyahrendt.com/2010/06/21/event-at-ballenisles-country-club-palm-beach-gardens-benefitting-richard-david-kann-melanoma-foundation/",
+      "group": "charity"
+    },
+    {
+      "key": "shower-1",
+      "file": "images/services/shower-1.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2009/10/www.traceyahrendt_W4.jpg",
+      "page": "https://www.traceyahrendt.com/2009/10/01/lil-baby-gs-baby-shower-the-w-hotel/",
+      "group": "shower"
+    },
+    {
+      "key": "shower-2",
+      "file": "images/services/shower-2.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2009/10/www.traceyahrendt_W5.jpg",
+      "page": "https://www.traceyahrendt.com/2009/10/01/lil-baby-gs-baby-shower-the-w-hotel/",
+      "group": "shower"
+    },
+    {
+      "key": "shower-3",
+      "file": "images/services/shower-3.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2009/10/www.traceyahrendt_W9.jpg",
+      "page": "https://www.traceyahrendt.com/2009/10/01/lil-baby-gs-baby-shower-the-w-hotel/",
+      "group": "shower"
+    },
+    {
+      "key": "shower-4",
+      "file": "images/services/shower-4.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2009/10/www.traceyahrendt_W11.jpg",
+      "page": "https://www.traceyahrendt.com/2009/10/01/lil-baby-gs-baby-shower-the-w-hotel/",
+      "group": "shower"
+    },
+    {
+      "key": "music-1",
+      "file": "images/services/music-1.jpg",
+      "source": "https://www.traceyahrendt.com/wp-content/uploads/2012/06/www.traceyahrendt.com_guadi_live_music-0002.jpg",
+      "page": "https://www.traceyahrendt.com/2012/06/21/live-music-photography-gaudi-art-basel/",
+      "group": "music"
+    },
+    {
+      "key": "facebook-mermaid",
+      "file": "images/services/facebook-mermaid.jpg",
+      "page": "https://www.facebook.com/photo?fbid=1829506488463699&set=pcb.1829508095130205",
+      "source": "Facebook photo download",
+      "provider": "Tracey Ahrendt Facebook",
+      "stock": false
+    },
+    {
+      "key": "facebook-fantasy",
+      "file": "images/services/facebook-fantasy.jpg",
+      "page": "https://www.facebook.com/photo?fbid=1829506431797038&set=pcb.1829508095130205",
+      "source": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.30808-6/796440040_1829506445130370_4961834949832824156_n.jpg?stp=dst-jpg_tt6&cstp=mx560x400&ctp=s560x400&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=y_WLo4Lr87IQ7kNvwEq5KJ_&_nc_oc=Ado48wV6J6j7NgHfVtR2-J_ovSyPm57VaULpXbkplG2ESMeLAyBB4iCer38gtuaTpnhsWqLFJF1JsWfi3-EJydcO&_nc_zt=23&_nc_ht=scontent-phl2-1.xx&_nc_gid=nEX0SMR9utwAGTfI_WxpxA&_nc_ss=7b289&oh=00_AQP82LE63VIxEPQL5mnI9gN8A1xcsj72Ve4L-atsW1JeGA&oe=6ACB6B2B",
+      "provider": "Tracey Ahrendt Facebook",
+      "stock": false
+    }
+  ],
+  "assignments": [
+    {
+      "page": "content/services/boudoir-photography.md",
+      "photos": [
+        "boudoir-2",
+        "boudoir-1",
+        "boudoir-3"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/product-photography.md",
+      "photos": [
+        "stock-product"
+      ],
+      "temporary_preview": true,
+      "stock_preview": true
+    },
+    {
+      "page": "content/services/interior-design-photography.md",
+      "photos": [
+        "shower-2"
+      ],
+      "temporary_preview": true,
+      "featured_image_crop": "754x504 Center"
+    },
+    {
+      "page": "content/services/wedding-photography.md",
+      "photos": [
+        "wedding-2",
+        "wedding-1",
+        "wedding-3"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/maternity-photography.md",
+      "photos": [
+        "maternity-3",
+        "maternity-2",
+        "maternity-1"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/commercial-photography.md",
+      "photos": [
+        "branding-3",
+        "branding-1",
+        "branding-2"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/newborn-photography.md",
+      "photos": [
+        "newborn-2",
+        "newborn-1",
+        "newborn-3"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/engagement-photography.md",
+      "photos": [
+        "engagement-1",
+        "engagement-2",
+        "engagement-3"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/corporate/_index.md",
+      "photos": [
+        "charity-2"
+      ],
+      "temporary_preview": true,
+      "featured_image_crop": "480x400 TopRight"
+    },
+    {
+      "page": "content/services/boudoir/_index.md",
+      "photos": [
+        "boudoir-2",
+        "boudoir-1",
+        "boudoir-3"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/branding-business/corporate-photography.md",
+      "photos": [
+        "charity-2",
+        "charity-1",
+        "charity-3"
+      ],
+      "temporary_preview": true,
+      "featured_image_crop": "480x400 TopRight"
+    },
+    {
+      "page": "content/services/branding-business/branding-photography.md",
+      "photos": [
+        "stock-branding"
+      ],
+      "temporary_preview": true,
+      "stock_preview": true
+    },
+    {
+      "page": "content/services/branding-business/_index.md",
+      "photos": [
+        "branding-3"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/headshots/_index.md",
+      "photos": [
+        "headshot-1",
+        "headshot-2"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/portraits-headshots/headshots-photography.md",
+      "photos": [
+        "headshot-1",
+        "headshot-2"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/portraits-headshots/portraits-photography.md",
+      "photos": [
+        "headshot-1",
+        "family-1",
+        "engagement-1"
+      ],
+      "temporary_preview": true
+    },
+    {
+      "page": "content/services/portraits-headshots/_index.md",
+      "photos": [
+        "business-1"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/maternity-newborns/_index.md",
+      "photos": [
+        "maternity-3"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/family-lifestyle/lifestyle-photography.md",
+      "photos": [
+        "family-1",
+        "family-2",
+        "family-3"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/family-lifestyle/family-photography.md",
+      "photos": [
+        "family-3",
+        "family-2",
+        "family-1"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/family-lifestyle/_index.md",
+      "photos": [
+        "family-1",
+        "family-2",
+        "family-3"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/automotive/cars-photography.md",
+      "photos": [
+        "stock-cars"
+      ],
+      "temporary_preview": true,
+      "stock_preview": true
+    },
+    {
+      "page": "content/services/automotive/_index.md",
+      "photos": [
+        "stock-cars"
+      ],
+      "temporary_preview": true,
+      "stock_preview": true
+    },
+    {
+      "page": "content/services/aviation/aviation-photography.md",
+      "photos": [
+        "stock-aviation"
+      ],
+      "temporary_preview": true,
+      "stock_preview": true
+    },
+    {
+      "page": "content/services/aviation/_index.md",
+      "photos": [
+        "stock-aviation"
+      ],
+      "temporary_preview": true,
+      "stock_preview": true
+    },
+    {
+      "page": "content/services/events/awards-photography.md",
+      "photos": [
+        "stock-awards"
+      ],
+      "temporary_preview": true,
+      "stock_preview": true
+    },
+    {
+      "page": "content/services/events/baby-showers-photography.md",
+      "photos": [
+        "shower-1",
+        "shower-2",
+        "shower-3",
+        "shower-4"
+      ],
+      "temporary_preview": false,
+      "featured_image_crop": "430x1000 TopLeft"
+    },
+    {
+      "page": "content/services/events/events-photography.md",
+      "photos": [
+        "charity-1",
+        "charity-3",
+        "music-1"
+      ],
+      "temporary_preview": false,
+      "featured_image_crop": "430x360 BottomLeft"
+    },
+    {
+      "page": "content/services/events/banquets-photography.md",
+      "photos": [
+        "shower-2",
+        "charity-2"
+      ],
+      "temporary_preview": true,
+      "featured_image_crop": "754x504 Center"
+    },
+    {
+      "page": "content/services/events/_index.md",
+      "photos": [
+        "charity-1"
+      ],
+      "temporary_preview": false,
+      "featured_image_crop": "430x360 BottomLeft"
+    },
+    {
+      "page": "content/services/weddings/destination-weddings-photography.md",
+      "photos": [
+        "wedding-2",
+        "wedding-1",
+        "wedding-3"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/weddings/_index.md",
+      "photos": [
+        "wedding-2",
+        "wedding-1",
+        "wedding-3"
+      ],
+      "temporary_preview": false
+    },
+    {
+      "page": "content/services/fantasy/princesses-photography.md",
+      "photos": [
+        "facebook-fantasy"
+      ],
+      "temporary_preview": false,
+      "featured_image_crop": "285x200 BottomLeft"
+    },
+    {
+      "page": "content/services/fantasy/fairies-photography.md",
+      "photos": [
+        "facebook-fantasy"
+      ],
+      "temporary_preview": false,
+      "featured_image_crop": "285x200 BottomLeft"
+    },
+    {
+      "page": "content/services/fantasy/mermaids-photography.md",
+      "photos": [
+        "facebook-mermaid",
+        "facebook-fantasy"
+      ],
+      "temporary_preview": false,
+      "featured_image_crop": "685x910 TopLeft"
+    },
+    {
+      "page": "content/services/fantasy/_index.md",
+      "photos": [
+        "facebook-fantasy"
+      ],
+      "temporary_preview": false,
+      "featured_image_crop": "285x200 BottomLeft"
+    },
+    {
+      "page": "content/services/luxury-adventure/yachts-photography.md",
+      "photos": [
+        "stock-yacht"
+      ],
+      "temporary_preview": true,
+      "stock_preview": true
+    },
+    {
+      "page": "content/services/luxury-adventure/luxury-photography.md",
+      "photos": [
+        "stock-yacht"
+      ],
+      "temporary_preview": true,
+      "stock_preview": true
+    },
+    {
+      "page": "content/services/luxury-adventure/_index.md",
+      "photos": [
+        "stock-yacht"
+      ],
+      "temporary_preview": true,
+      "stock_preview": true
+    }
+  ],
+  "selection_policy": "Use Tracey\u2019s relevant original photographs first. Stock is limited to specialties without a matching original image; never substitute unrelated original photographs just to avoid stock."
+}

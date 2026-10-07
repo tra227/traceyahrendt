@@ -1,0 +1,26 @@
+<a href="{{ .RelPermalink }}" class="category-photo-card">
+  <div class="category-photo" style="{{ printf "--photo-position: %s; --photo-fit: %s;" (.Params.image_position | default "50% 20%") (.Params.image_fit | default "cover") | safeCSS }}">
+    {{ if .Params.image }}
+      {{ partial "responsive-image.html" (dict "page" . "src" .Params.image "alt" .Params.image_alt "sizes" "(min-width: 1200px) 360px, (min-width: 1024px) calc((100vw - 112px) / 3), (min-width: 640px) calc((100vw - 72px) / 2), calc(100vw - 32px)") }}
+    {{ else }}
+      <div class="category-photo-placeholder">{{ partial "service-icon.html" .Params.icon }}</div>
+    {{ end }}
+  </div>
+  <div class="category-photo-heading">
+    <h3>{{ .Title }}</h3>
+    <span class="category-photo-arrow" aria-hidden="true">&nearr;</span>
+  </div>
+  <p class="category-photo-summary">{{ .Params.excerpt }}</p>
+  {{ if .Params.stock_preview }}<p class="photo-source-note">Session inspiration · Stock photography</p>{{ end }}
+  {{ with .Params.starting_price }}<p class="category-photo-price">Starting at ${{ . }}</p>{{ end }}
+  {{ if .IsSection }}
+  {{ $services := where (where .Site.RegularPages "Section" "services") "Params.service_group" .Params.service_group }}
+  {{ if gt (len $services) 1 }}
+  <ul class="category-photo-services" aria-label="Included services">
+    {{ range $services.ByWeight }}
+    <li>{{ replaceRE " Photography$" "" .Title }}</li>
+    {{ end }}
+  </ul>
+  {{ end }}
+  {{ end }}
+</a>

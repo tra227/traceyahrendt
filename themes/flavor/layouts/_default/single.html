@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
+  </div>
+</div>
+
+<div class="page-content">
+  <div class="container">
+    {{ if .Params.image }}{{ partial "responsive-image.html" (dict "page" . "src" .Params.image "alt" (.Params.image_alt | default .Title) "loading" "eager" "class" "post-featured-image") }}{{ end }}
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}

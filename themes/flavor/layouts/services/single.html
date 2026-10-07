@@ -1,0 +1,82 @@
+{{ define "main" }}
+{{ $group := .Site.GetPage (printf "/services/%s" .Params.service_group) }}
+<div class="service-hero">
+  <div class="container">
+    <nav class="service-breadcrumbs" aria-label="Breadcrumb">
+      <a href="/services/">All Services</a>
+      {{ with $group }}<span aria-hidden="true"> / </span><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+      <span aria-hidden="true"> / </span><span aria-current="page">{{ .Title }}</span>
+    </nav>
+    <div class="service-hero-layout">
+      <div class="service-hero-copy">
+        <div class="service-hero-icon">{{ partial "service-icon.html" .Params.icon }}</div>
+        <h1>{{ .Title }}</h1>
+        <p>{{ .Params.excerpt }}</p>
+      </div>
+      {{ if .Params.image }}
+      <div class="service-featured-photo">{{ partial "responsive-image.html" (dict "page" . "src" .Params.image "alt" .Params.image_alt "loading" "eager" "sizes" "(min-width: 1200px) 616px, (min-width: 768px) calc((100vw - 96px) * .55), calc(100vw - 32px)") }}{{ if .Params.stock_preview }}<p class="photo-source-note">Session inspiration · Stock photography</p>{{ end }}</div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<div class="service-body">
+  <div class="container">
+    {{ with .Params.starting_price }}
+    <div class="service-price-banner">
+      <span>Starting at ${{ . }}</span>
+    </div>
+    {{ end }}
+
+    <div class="prose">
+      {{ .Content }}
+    </div>
+
+    {{ if .Params.gallery }}
+    <section class="service-photo-gallery" aria-labelledby="service-gallery-heading">
+      <h2 id="service-gallery-heading">{{ if .Params.stock_preview }}Session Inspiration{{ else if .Params.photo_preview }}Portfolio Preview{{ else }}Selected Work{{ end }}</h2>
+      {{ partial "gallery.html" (dict "page" . "images" .Params.gallery) }}
+    </section>
+    {{ end }}
+
+    {{ with .Params.includes }}
+    <div class="service-includes">
+      <h2>What's Included</h2>
+      <ul class="includes-list">
+        {{ range . }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+    {{ with .Params.details }}
+    <div class="service-details">
+      {{ range $key, $value := . }}
+      <div class="detail-card">
+        <h3>{{ $key | title }}</h3>
+        <p>{{ $value }}</p>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ $current := . }}
+    {{ with $group }}
+    <section class="related-services" aria-labelledby="related-heading">
+      <h2 id="related-heading">Explore {{ .Title }}</h2>
+      <div class="service-related-links">
+        {{ range (where (where $.Site.RegularPages "Section" "services") "Params.service_group" $current.Params.service_group).ByWeight }}
+          {{ if ne .RelPermalink $current.RelPermalink }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+    <div class="service-cta">
+      <h2>Interested in {{ .Title }}?</h2>
+      <p>Let's discuss your vision and create something beautiful together.</p>
+      <a href="/contact/" class="btn">Book This Session</a>
+    </div>
+  </div>
+</div>
+{{ end }}

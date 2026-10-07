@@ -1,0 +1,28 @@
+{{- $page := .page -}}
+{{- $src := .src -}}
+{{- $alt := .alt | default "" -}}
+{{- $sizes := .sizes | default "(min-width: 1200px) 1136px, (min-width: 768px) calc(100vw - 64px), calc(100vw - 32px)" -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- $image := $page.Resources.GetMatch $src -}}
+{{- if not $image }}{{ $image = resources.Get (strings.TrimPrefix "/" $src) }}{{ end -}}
+{{- if and $image (in (slice "image/jpeg" "image/png" "image/webp" "image/tiff" "image/bmp") $image.MediaType.Type) -}}
+  {{- if eq $src $page.Params.image -}}
+    {{- with $page.Params.image_crop }}{{ $image = $image.Crop . }}{{ end -}}
+  {{- end -}}
+  {{- $widths := slice -}}
+  {{- range slice 320 480 640 960 1280 1600 1920 -}}
+    {{- if lt . $image.Width }}{{ $widths = $widths | append . }}{{ end -}}
+  {{- end -}}
+  {{- $widths = $widths | append (math.Min $image.Width 1920 | int) -}}
+  {{- $sources := slice -}}
+  {{- range $widths -}}
+    {{- $variant := $image.Resize (printf "%dx webp q82" .) -}}
+    {{- $sources = $sources | append (printf "%s %dw" $variant.RelPermalink $variant.Width) -}}
+  {{- end -}}
+  {{- $fallback := $image.Resize (printf "%dx webp q82" (math.Min $image.Width 960 | int)) -}}
+  <img src="{{ $fallback.RelPermalink }}" srcset="{{ delimit $sources ", " }}" sizes="{{ $sizes }}" width="{{ $fallback.Width }}" height="{{ $fallback.Height }}" alt="{{ $alt }}" loading="{{ $loading }}" decoding="async"{{ with .class }} class="{{ . }}"{{ end }}{{ with .title }} title="{{ . }}"{{ end }}>
+{{- else -}}
+  {{- $url := $src -}}
+  {{- with $image }}{{ $url = .RelPermalink }}{{ end -}}
+  <img src="{{ $url | safeURL }}" alt="{{ $alt }}" loading="{{ $loading }}" decoding="async"{{ with .class }} class="{{ . }}"{{ end }}{{ with .title }} title="{{ . }}"{{ end }}>
+{{- end -}}

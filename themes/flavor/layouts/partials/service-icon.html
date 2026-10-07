@@ -1,0 +1,9 @@
+{{- $name := . | default "camera" -}}
+{{- $aliases := dict "product" "box" "commercial" "briefcase" "interior" "couch" "maternity" "person-pregnant" "newborn" "baby" "wedding" "ring" "engagement" "heart" "boudoir" "heart" -}}
+{{- with index $aliases $name }}{{ $name = . }}{{ end -}}
+{{- $icon := resources.Get (printf "icons/fontawesome/%s.svg" $name) -}}
+{{- if $icon -}}
+  {{- replace $icon.Content "<svg " "<svg class=\"fa-icon\" aria-hidden=\"true\" focusable=\"false\" fill=\"currentColor\" " | safeHTML -}}
+{{- else -}}
+  {{- errorf "Missing local Font Awesome icon: %s" $name -}}
+{{- end -}}

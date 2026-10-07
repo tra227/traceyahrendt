@@ -1,0 +1,57 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-bg" style="background-image: url('/images/hero.jpg')"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>Capturing Life's Most Beautiful Moments</h1>
+    <p>Photography in Chester Springs, PA and beyond — for families, imaginative portraits, weddings, brands, and unforgettable experiences.</p>
+    <div class="hero-buttons">
+      <a href="/services/" class="btn">View Services</a>
+      <a href="/contact/" class="btn btn-outline">Book a Session</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Photography Services</h2>
+      <div class="section-divider"></div>
+      <p>Every session is tailored to tell your unique story through beautiful, authentic imagery.</p>
+    </div>
+    {{ partial "service-category-index.html" . }}
+  </div>
+</section>
+
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <h2>Why Work With Me</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="features-grid">
+      <div class="feature-item">
+        <h3>Personalized Experience</h3>
+        <p>Every session is uniquely crafted around your vision, style, and story.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Professional Quality</h3>
+        <p>Expert editing and retouching ensure every image is gallery-worthy.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Quick Turnaround</h3>
+        <p>Receive your beautifully edited images without the long wait.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container section-header">
+    <h2>Ready to Book Your Session?</h2>
+    <div class="section-divider"></div>
+    <p>Let's create something beautiful together. Reach out to discuss your vision and reserve your date.</p>
+    <a href="/contact/" class="btn btn-dark" style="margin-top: 1rem;">Get in Touch</a>
+  </div>
+</section>
+{{ end }}

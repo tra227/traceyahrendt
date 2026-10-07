@@ -1,0 +1,8 @@
+{{ $images := .Page.Params.gallery }}
+{{ if not $images }}
+  {{ $images = slice }}
+  {{ range .Page.Resources.ByType "image" }}
+    {{ $images = $images | append (dict "src" .Name "alt" (printf "%s — %s" $.Page.Title (humanize (path.BaseName .Name)))) }}
+  {{ end }}
+{{ end }}
+{{ partial "gallery.html" (dict "page" .Page "images" $images) }}

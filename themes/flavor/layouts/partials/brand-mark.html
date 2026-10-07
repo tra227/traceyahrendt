@@ -1,0 +1,4 @@
+{{ $mark := resources.Get "images/brand/tracey-shutter-transparent.png" }}
+{{ $small := $mark.Resize "128x webp q90" }}
+{{ $large := $mark.Resize "192x webp q90" }}
+<img class="brand-mark" src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} 128w, {{ $large.RelPermalink }} 192w" sizes="(min-width: 640px) 64px, 56px" width="64" height="64" alt="" aria-hidden="true" decoding="async">

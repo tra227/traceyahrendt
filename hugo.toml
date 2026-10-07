@@ -1,0 +1,51 @@
+baseURL = 'https://www.traceyahrendt.com/'
+locale = 'en-us'
+title = 'Tracey Ahrendt Photographic Artist'
+theme = 'flavor'
+
+[params]
+  tagline = "Photographic Artist in Chester Springs, PA"
+  phone = "954-682-0224"
+  email = "traceyahrendt@gmail.com"
+  location = "Chester Springs, PA 19425"
+  description = "Family, portrait, fantasy, wedding, branding, event, and luxury photography in Chester Springs, Pennsylvania and beyond."
+
+[menu]
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 1
+  [[menu.main]]
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Local images in assets/ and static/ can use the same processing pipeline.
+[module]
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    source = 'static'
+    target = 'assets'
+
+[imaging]
+  quality = 82
+  resampleFilter = 'Lanczos'

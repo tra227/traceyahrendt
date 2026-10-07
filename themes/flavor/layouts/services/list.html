@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="page-header{{ if eq .RelPermalink "/services/" }} services-header{{ end }}">
+  <div class="container">
+    {{ if .Parent }}{{ if eq .Parent.Section "services" }}
+    <nav class="service-breadcrumbs" aria-label="Breadcrumb"><a href="/services/">All Services</a><span aria-hidden="true"> / </span><span aria-current="page">{{ .Title }}</span></nav>
+    {{ end }}{{ end }}
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.excerpt }}</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    {{ if eq .RelPermalink "/services/" }}
+      {{ partial "service-categories.html" . }}
+    {{ else }}
+      {{ $group := .Params.service_group }}
+      <div class="services-grid">
+        {{ range (where (where .Site.RegularPages "Section" "services") "Params.service_group" $group).ByWeight }}
+          {{ partial "service-card.html" . }}
+        {{ end }}
+      </div>
+    {{ end }}
+    <div class="service-cta">
+      <h2>Let's plan your photography</h2>
+      <p>Share your vision, preferred date, and location to start the conversation.</p>
+      <a href="/contact/" class="btn btn-dark">Get in Touch</a>
+    </div>
+  </div>
+</section>
+{{ end }}
