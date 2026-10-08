@@ -42,4 +42,4 @@ Beyond beautiful images for save-the-dates and your wedding website, your engage
 
 ## Location Ideas
 
-The best engagement photos happen in places that mean something to you — where you had your first date, your favorite park, the café where you always grab coffee together. I also know beautiful spots throughout Chester Springs and the surrounding area if you need inspiration.
+The best engagement photos happen in places that mean something to you — where you had your first date, your favorite park, the café where you always grab coffee together. I also know beautiful spots throughout Ft. Lauderdale and the surrounding area if you need inspiration.

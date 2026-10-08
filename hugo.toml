@@ -4,11 +4,11 @@ title = 'Tracey Ahrendt Photographic Artist'
 theme = 'flavor'
 
 [params]
-  tagline = "Photographic Artist in Chester Springs, PA"
+  tagline = "Photographic Artist in Ft. Lauderdale, FL"
   phone = "954-682-0224"
   email = "traceyahrendt@gmail.com"
-  location = "Chester Springs, PA 19425"
-  description = "Family, portrait, fantasy, wedding, branding, event, and luxury photography in Chester Springs, Pennsylvania and beyond."
+  location = "Ft. Lauderdale, FL"
+  description = "Family, portrait, fantasy, wedding, branding, event, and luxury photography in Ft. Lauderdale, Florida and beyond."
 
 [menu]
   [[menu.main]]

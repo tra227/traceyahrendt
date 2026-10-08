@@ -6,7 +6,7 @@ subtitle: "The person behind the lens"
 
 ## Hi, I'm Tracey
 
-I'm a photographic artist based in Chester Springs, Pennsylvania, specializing in everything from intimate boudoir sessions to grand wedding celebrations, newborn portraits to commercial brand imagery.
+I'm a photographic artist based in Ft. Lauderdale, Florida, specializing in everything from intimate boudoir sessions to grand wedding celebrations, newborn portraits to commercial brand imagery.
 
 Photography has always been more than a career for me — it's how I connect with people and help them see themselves at their most beautiful and authentic. Every session I shoot is personal, and I bring the same level of care and creativity whether I'm photographing a newborn's tiny fingers or a CEO's headshot.
 
