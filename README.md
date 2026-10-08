@@ -162,6 +162,75 @@ Use `YYYY-MM-DD` for dates. Future-dated posts are not published by the normal b
 
 For a post with photos, see the page-bundle example in [docs/images.md](docs/images.md). To add a Portfolio entry, create a Markdown file inside `content/portfolio/` with `title`, `image`, and `image_alt` settings. The Portfolio overview displays each entry's cover photo; gallery photos inside an entry do not automatically appear on that overview.
 
+## Use Git on your computer
+
+Git lets you download the website, track your edits, and send them to GitHub. Have your maintainer help install Git and set up GitHub sign-in first. You need permission to push to this repository. Run these commands in a terminal, one line at a time.
+
+### First time: download the website
+
+Choose a folder on your computer where you want to keep the website, then open a terminal there:
+
+```sh
+git clone --branch production https://github.com/tra227/traceyahrendt.git
+cd traceyahrendt
+git status
+```
+
+`git clone` downloads the repository into a new `traceyahrendt` folder. `cd` moves your terminal into that folder. `git status` shows your current branch and any changed files. You should be on `production`, with a clean working tree before making edits. You only need to clone once.
+
+### Each time: get the latest version
+
+Open a terminal in your existing `traceyahrendt` folder. Check for unfinished edits before downloading updates:
+
+```sh
+git status
+git pull --ff-only origin production
+```
+
+Run the pull when you are on `production` and your working tree is clean. It brings in changes made through GitHub or by your maintainer. If you have unfinished changes or Git reports an error, ask your maintainer for help before continuing.
+
+### After editing: save and publish your changes
+
+Save your files in your text editor and preview them if you have Hugo installed. Then check which files changed:
+
+```sh
+git status
+```
+
+Stage the files you intend to publish. For example, if you edited your About page:
+
+```sh
+git add content/about.md
+```
+
+For a photo and its service page, stage both together:
+
+```sh
+git add assets/images/services/family-beach-session.jpg content/services/family-lifestyle/family-photography.md
+```
+
+Use the actual paths of your changed files. `git add` selects changes for the next commit; it does not publish them. Check the list again, then create a commit and push it:
+
+```sh
+git status
+git commit -m "Update About page introduction"
+git push origin production
+git status
+```
+
+Replace the commit message with a short description of your edits. `git commit` saves a version on your computer. `git push` sends your commits to GitHub and triggers Netlify when automatic deployment is configured. The final status should show a clean working tree. Wait for Netlify's successful deployment before checking the live site.
+
+If Git asks for your name and email when committing, use your own details:
+
+```sh
+git config user.name "Tracey Ahrendt"
+git config user.email "YOUR_GITHUB_EMAIL"
+```
+
+Replace `YOUR_GITHUB_EMAIL` with the email associated with your GitHub account (or its GitHub-provided private email), then retry the commit. These settings apply to this repository.
+
+If a push is rejected because newer changes exist, or Git reports a conflict or sign-in problem, keep your files and ask your maintainer for help. Do not force-push. If you edit a file again after `git add`, run `git add` for that file again before committing so the latest edits are included.
+
 ## Preview on your computer (optional)
 
 GitHub's file preview helps check Markdown formatting, but it does not show the complete website design. To preview the actual site locally, have your maintainer install Hugo and set up a copy of the repository on your computer. Netlify is configured to use Hugo **0.162.1**.
